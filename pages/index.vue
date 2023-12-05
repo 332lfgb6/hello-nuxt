@@ -1,13 +1,18 @@
 <template>
   <div>{{greet}}</div>
+  <div>{{greet}}</div>
+  <div>{{greet}}</div>
+  <div>{{greet}}</div>
+  <div>{{greet}}</div>
+  <div>{{greet}}</div>
   <button @click="click">change</button>
 </template>
 
 <script lang="ts" setup>
-const greet=ref('hi')
+const greet=ref('cc')
 
 const click = () => {
-  greet.value='hello'
+  greet.value='hell'
 }
 </script>
 

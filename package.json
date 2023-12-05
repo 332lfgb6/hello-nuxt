@@ -7,13 +7,18 @@
     "dev": "nuxt dev --host 0.0.0.0",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "start": "cross-env NUXT_HOST=0.0.0.0 NUXT_PORT=3000 nuxt dev"
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
     "@nuxt/types": "^2.17.2",
-    "nuxt": "^3.8.2",
+    "cross-env": "^7.0.3",
     "vue": "^3.3.10",
     "vue-router": "^4.2.5"
+  },
+  "dependencies": {
+    "eruda": "^3.0.1",
+    "nuxt": "^3.8.1"
   }
 }
